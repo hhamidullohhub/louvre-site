@@ -1,0 +1,308 @@
+header {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    padding-bottom: 50px !important;
+}
+
+.container-width {
+    width: 100%;
+    max-width: 1920px;
+}
+
+
+.section1 {
+    background-color: black;
+}
+
+.title-louvre-text {
+    width: 100%;
+    max-width: 150px;
+}
+
+.title-link-all {
+    width: 100%;
+    max-width: 600px;
+}
+
+.title-visiting-links {
+    font-weight: 100;
+    font-size: 22px;
+    color: rgb(236, 236, 236);
+}
+
+.louvre-text {
+    color: white;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.welcome-text {
+    width: 100%;
+    max-width: 500px;
+    font-family: initial;
+    font-size: 80px;
+}
+
+.welcome-img img {
+    width: 100%;
+}
+
+.welcome-texts {
+    font-size: 28px;
+    line-height: 100px;
+}
+
+.discover-button {
+    width: 100%;
+    max-width: 360px;
+    height: 75px;
+    font-family: inherit;
+    background-color: #710707;
+}
+
+.virtual-text {
+    font-weight: 100;
+    font-family: initial;
+    font-size: 80px;
+    color: #9D8665;
+}
+
+.virtual-line{
+    margin: 30px 0;
+    width: auto;
+    height: 3px;
+    background-color: #710707;
+}
+
+.list-item {
+    width: 100%;
+    max-width: 480px;
+}
+
+.list-item img {
+    width: 100%;
+    max-width: 480px;
+}
+
+.flex-line {
+    border: 1px solid #710707;
+}
+
+.google-street-text {
+    font-weight: 100;
+    color: #000;
+}
+
+.section3 {
+    padding-top: 100px;
+    background-color: black;
+}
+
+.explore-text {
+    font-size: 80px;
+    color: white;
+}
+
+.picture-line {
+    width: 100%;
+    margin-top: 15px;
+    border: 2px solid #710707;
+}
+
+.explore-text-all {
+    padding-top: 50px;
+}
+
+.explore-texts {
+    width: 100%;
+    max-width: 650px;
+    padding: 20px 0;
+    font-size: 22px;
+    color: #fff;
+}
+
+.explore-img img {
+    width: 100%;
+    max-width: 720px;
+}
+
+.small-video {
+    width: 100%;
+    max-width: 560px !important;
+}
+
+.section4 {
+    padding-top: 100px;
+}
+
+.journy-text {
+    font-size: 80px;
+    font-weight: 100;
+    color: #9D8665;
+}
+
+.journy-texts {
+    width: 100%;
+    max-width: 800px;
+    font-size: 22px;
+    line-height: 38px;
+    margin: auto;
+}
+
+.video-1 {
+    width: 100%;
+    max-height: 900px;
+}
+
+.section5 {
+    padding-top: 100px;
+    background-color: black;
+    border: 1px solid green;
+}
+
+.art-gallery-text {
+    font-weight: 100;
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+
+.p-2 {
+    margin: auto;
+}
+
+.video {
+    padding-top: 50px;
+}
+
+.art-gallery-all {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.art-all {
+    width: 100%;
+    margin: auto;
+}
+
+.gallery-img img {
+    width: 100%;
+    /* max-width: 456px; */
+}
+
+.tickets-all {
+    width: 100%;
+}
+
+.ticked-img img {
+    width: 100%;
+    max-width: 720px;
+}
+
+.art-gallery-line {
+    width: 100%;
+    border: 3px solid #710707;
+}
+
+.buttons-all {
+    width: 100%;
+    max-width: 200px;
+}
+
+.buttons {
+    border-right: none;
+}
+
+.button-1 {
+    border-left: none;
+}
+
+.buy-now {
+    width: 100px;   
+    border: none;
+    height: 30px;
+}
+
+.section7 {
+    height: 400px;
+    background-image: url(/svg/parallax\ 1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section8-contacts {
+    font-size: 80px;
+    font-weight: 100;
+    color: #9D8665;
+}
+
+.info-all {
+    padding-top: 100px;
+}
+
+.contact-line {
+    border: 3px solid #710707;
+}
+
+.contacts-img-end {
+    border: none;
+}
+
+.contacts-img-end img{
+    width: 100%;
+    max-width: 960px;
+}
+
+footer {
+    background-color: black;
+}
+
+.footer-all {
+    padding-top: 70px;
+}
+
+.footer-louvre {
+    width: 100%;
+    max-width: 170px;
+}
+
+.footer-list {
+    width: 100%;
+    max-width: 800px;
+}
+
+.visiting-links {
+    text-align: center;
+    width: 100%;
+    max-width: 100px;
+    line-height: 40px;
+}
+
+.visiting-links a {
+    font-weight: 100;
+    color: #fff;
+}
+
+.footer-icons {
+    width: 43px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .title-link-all {
+        display: none !important;
+    }
+}
