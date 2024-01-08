@@ -34,6 +34,12 @@ nav {
     font-weight: 100;
     font-size: 22px;
     color: rgb(236, 236, 236);
+    transition: .4s;
+    cursor: pointer;
+}
+
+.title-visiting-links:hover {
+    color: green;
 }
 
 .louvre-text {
@@ -163,7 +169,14 @@ nav {
 .section5 {
     padding-top: 100px;
     background-color: black;
-    border: 1px solid green;
+}
+
+.gallery-img2 {
+    margin-top: -150px;
+}
+
+.gallery-img3 {
+    margin-top: -50px;
 }
 
 .art-gallery-text {
