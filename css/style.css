@@ -305,6 +305,10 @@ footer {
     color: #fff;
 }
 
+.visiting-links a:hover {
+    color: greenyellow;
+}
+
 .footer-icons {
     width: 43px;
     border: 1px solid white;
