@@ -175,7 +175,6 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 200px);
-    /* border: 1px solid red; */
 }
 
 img {
@@ -419,6 +418,17 @@ footer {
     background-color: black;
     color: white;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 400px) {
+    .section5 {
+        
+    }
+
+    .grid-all {
+        grid-template-columns: repeat(200px, 1fr);
+        border: 1px solid red;
+    }
 }
 
 @media screen and (max-width: 1024px) {
