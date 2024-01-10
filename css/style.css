@@ -422,6 +422,10 @@ footer {
 
 @media screen and (max-width: 1024px) {
 
+    .grid-all {
+        grid: none;
+    }
+
     .title-link-all {
         display: none !important;
     }
