@@ -333,12 +333,10 @@ img {
     max-width: 200px;
     text-align: center;
     margin: auto;
-    border: 1px solid red;
 }
 
 .button-father {
     width: 100%;
-    border: 1px solid coral;
     text-align: center;
 }
 
@@ -358,7 +356,6 @@ img {
     width: 100%; 
     border: none;
     height: 30px;
-    border: 1px solid green;
 }
 
 .button-1 {
