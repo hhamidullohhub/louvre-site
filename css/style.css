@@ -331,6 +331,15 @@ img {
 .buttons-all {
     width: 100%;
     max-width: 200px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.button-father {
+    width: 100%;
+    border: 1px solid coral;
+    text-align: center;
 }
 
 .buttons {
@@ -341,10 +350,25 @@ img {
     border-left: none;
 }
 
+.amount-h3 {
+    text-align: center;
+}
+
 .buy-now {
-    width: 100px;   
+    width: 100%; 
     border: none;
     height: 30px;
+    border: 1px solid green;
+}
+
+.button-1 {
+    width: 100%;
+    max-width: 30px;
+    text-align: center;
+}
+
+.total-charge {
+    text-align: center;
 }
 
 .section7 {
@@ -422,6 +446,10 @@ footer {
 
 @media screen and (max-width: 1024px) {
 
+    .radio-lauvre {
+        display: none;
+    }
+
     .grid-all {
         grid: none;
     }
@@ -432,7 +460,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    
+
     .grid-all {
         grid: none;
     }
