@@ -182,7 +182,7 @@ nav {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 20px 200px 20px 100px 255px 45px 20px 200px 200px 200px;
+    grid-template-rows: 20px 200px 20px 100px 255px 15px 45px 200px 200px 200px;
     justify-content: space-between;
     gap: 30px;
 }
