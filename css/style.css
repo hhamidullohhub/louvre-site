@@ -167,7 +167,7 @@ nav {
 }
 
 .section5 {
-    padding-top: 100px;
+    /* padding-top: 100px; */
     background-color: black;
 }
 
@@ -185,6 +185,13 @@ nav {
     grid-template-rows: 20px 200px 20px 100px 255px 15px 45px 200px 200px 200px;
     justify-content: space-between;
     gap: 30px;
+}
+
+.art-gallery-text {
+    padding: 50px 0;
+    font-weight: 100;
+    font-size: 80px;
+    letter-spacing: 5px;
 }
 
 .column1 {
@@ -239,11 +246,6 @@ nav {
     transform: scale(1.03);
 }
 
-.art-gallery-text {
-    font-weight: 100;
-    font-size: 80px;
-    letter-spacing: 5px;
-}
 
 .p-2 {
     margin: auto;
@@ -251,14 +253,6 @@ nav {
 
 .video {
     padding-top: 50px;
-}
-
-.art-gallery-all {
-    padding-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 30px;
 }
 
 .art-all {
