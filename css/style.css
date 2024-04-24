@@ -25,6 +25,10 @@ nav {
     max-width: 150px;
 }
 
+.title-louvre-text a {
+    color: white;
+}
+
 .title-link-all {
     width: 100%;
     max-width: 600px;
